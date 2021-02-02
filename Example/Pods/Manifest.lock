@@ -1,0 +1,16 @@
+PODS:
+  - WZLog (0.1.0)
+
+DEPENDENCIES:
+  - WZLog (from `../`)
+
+EXTERNAL SOURCES:
+  WZLog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WZLog: 0155cffc7f759caf28d29e8626d38d958eeb18f1
+
+PODFILE CHECKSUM: 00ef662aaa37f43bbaf1ef943674c4e510ccc8ec
+
+COCOAPODS: 1.10.0

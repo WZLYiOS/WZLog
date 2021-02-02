@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051F8E0D8978F7A7904C75F98F7E6FE2 /* WZLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE3A950F9B9665FA442D4C0C490E8DFA /* WZLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA9011B8BCE8323EB3C724D713783A2 /* Pods-WZLog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E9B6462156EFB966A16E4CAC99EB85 /* Pods-WZLog_Example-dummy.m */; };
+		1F44D36C69ECA34C2FDC64742775C5EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		37D27D75751AFE45A7CF0F9FCB277C1E /* Pods-WZLog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3A2EDE3E50C9892F3174C0DD8BC7940 /* Pods-WZLog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41094C232555236DF779CD408FD0FA26 /* Pods-WZLog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDEF5008A38DACA6B2248616F828E2A4 /* Pods-WZLog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F51D610CB7BA1F8894C8079E0FCC000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5CF7A4DF1C6B6497C85823E80870B681 /* WZLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EF0C9BAF25EF15327E7BACE2026657 /* WZLog-dummy.m */; };
+		61632248C93E78779103AF572C992A0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		62203048E46D846944C37BD76A327422 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF8AD2E18F608C00BFE5E53232ABB67 /* NSArray+Log.m */; };
+		91A3C0F04916C9013B962D807B248C26 /* NSDictionary+Log.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE020074A33584170476937F93829CD /* NSDictionary+Log.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A35089E8DAE9D167788C1DF6906C204C /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9E567BC0FBC271EBBFF20DDC31C200 /* NSDictionary+Log.m */; };
+		CD19222E2C31088A12723724E9BB679F /* NSArray+Log.h in Headers */ = {isa = PBXBuildFile; fileRef = B7A478517F6044D702D62D9124C3043F /* NSArray+Log.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2E026DCD0DF32D9F4921E50B4B3E341 /* Pods-WZLog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2A877C7C5F4FAE9C67E50073A32C1 /* Pods-WZLog_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99C14DCEE06EED45CD86333B178D0AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 893AA337E06B714EFD23D501BC24C158;
+			remoteInfo = WZLog;
+		};
+		D6E268ED6F347CD2891385D1D0864AF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9456EA56C7CA24E1F322C7A7A17F21F;
+			remoteInfo = "Pods-WZLog_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FA3AF6896F8115EDCF9183E09BC4B9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		15577A6900BD5744B8E2DE087338068A /* Pods-WZLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WZLog_Example.modulemap"; sourceTree = "<group>"; };
+		1A0D5A335078DA0952BDCB865C490A58 /* Pods-WZLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		312B739D0BE326A6609828B1E95CF351 /* WZLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WZLog.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		3746FB24AA63F09401A2889A57217CA9 /* Pods-WZLog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZLog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A3F0AB3B64F2110D17D426343C74255 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		408B5065AF8780187C3E8D5A4CA0B949 /* Pods_WZLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C7A5233B65BEA2E45D49845576B80B /* Pods-WZLog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZLog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		607051BD395A7800BFB6A8FD2595B596 /* Pods-WZLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6901C4F2DB14B2AA1DCCDA12A2546A84 /* Pods-WZLog_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZLog_Example-Info.plist"; sourceTree = "<group>"; };
+		690B815289373FC48A1C5CFAE0207899 /* Pods-WZLog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WZLog_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6C84E1F8D9CB10380D604664336A7A59 /* WZLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WZLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DAB7B480C8E3AD7B025576EECD70C5C /* Pods-WZLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79E9B6462156EFB966A16E4CAC99EB85 /* Pods-WZLog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZLog_Example-dummy.m"; sourceTree = "<group>"; };
+		8FF4E7BF0AD64A86E9C6A300AD2C65FC /* WZLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZLog.release.xcconfig; sourceTree = "<group>"; };
+		9AF8AD2E18F608C00BFE5E53232ABB67 /* NSArray+Log.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Log.m"; path = "WZLog/Classes/NSArray+Log.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DC64DE9B41B41959ADBD8D1F59C5091 /* WZLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZLog.debug.xcconfig; sourceTree = "<group>"; };
+		A6EF0C9BAF25EF15327E7BACE2026657 /* WZLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZLog-dummy.m"; sourceTree = "<group>"; };
+		ADC1A1ED8CC9687052D6F5151712EDF3 /* WZLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WZLog.modulemap; sourceTree = "<group>"; };
+		B0D0B14C8A215C90E0DE1E051FC4CF86 /* Pods-WZLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZLog_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B46751B562E6F74B4608BC68924D2C3F /* Pods-WZLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WZLog_Tests.modulemap"; sourceTree = "<group>"; };
+		B7A478517F6044D702D62D9124C3043F /* NSArray+Log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Log.h"; path = "WZLog/Classes/NSArray+Log.h"; sourceTree = "<group>"; };
+		BAE020074A33584170476937F93829CD /* NSDictionary+Log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Log.h"; path = "WZLog/Classes/NSDictionary+Log.h"; sourceTree = "<group>"; };
+		BB0490640FFB1E82FB762CE145068FFF /* WZLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WZLog-Info.plist"; sourceTree = "<group>"; };
+		BFCAE37C2A3DBF5762F04117F1B336FD /* Pods-WZLog_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZLog_Tests-Info.plist"; sourceTree = "<group>"; };
+		C1D8EDE31B2B47EF299C17C6984270A7 /* WZLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZLog-prefix.pch"; sourceTree = "<group>"; };
+		CE3A950F9B9665FA442D4C0C490E8DFA /* WZLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZLog-umbrella.h"; sourceTree = "<group>"; };
+		D2156533324EDF511AF5619C49C3CB9E /* Pods_WZLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A2EDE3E50C9892F3174C0DD8BC7940 /* Pods-WZLog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZLog_Example-umbrella.h"; sourceTree = "<group>"; };
+		D7C70BD6978E429EA556884A42D8FF44 /* Pods-WZLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DDEF5008A38DACA6B2248616F828E2A4 /* Pods-WZLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZLog_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ED9E567BC0FBC271EBBFF20DDC31C200 /* NSDictionary+Log.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Log.m"; path = "WZLog/Classes/NSDictionary+Log.m"; sourceTree = "<group>"; };
+		FDB2A877C7C5F4FAE9C67E50073A32C1 /* Pods-WZLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZLog_Tests-dummy.m"; sourceTree = "<group>"; };
+		FF9DC6160B7A667D2CF07FF570CE0193 /* Pods-WZLog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZLog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4331BB4C48820A0B3C2E810961260A71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F44D36C69ECA34C2FDC64742775C5EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A829441BC94511619447DFFD79DFC438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F51D610CB7BA1F8894C8079E0FCC000 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3550DAB9EE214CD9385A84EA5364E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61632248C93E78779103AF572C992A0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D7D1BD3E58EF19FC5E0CD532AC3D0BF /* Pods-WZLog_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B46751B562E6F74B4608BC68924D2C3F /* Pods-WZLog_Tests.modulemap */,
+				59C7A5233B65BEA2E45D49845576B80B /* Pods-WZLog_Tests-acknowledgements.markdown */,
+				6DAB7B480C8E3AD7B025576EECD70C5C /* Pods-WZLog_Tests-acknowledgements.plist */,
+				FDB2A877C7C5F4FAE9C67E50073A32C1 /* Pods-WZLog_Tests-dummy.m */,
+				BFCAE37C2A3DBF5762F04117F1B336FD /* Pods-WZLog_Tests-Info.plist */,
+				DDEF5008A38DACA6B2248616F828E2A4 /* Pods-WZLog_Tests-umbrella.h */,
+				1A0D5A335078DA0952BDCB865C490A58 /* Pods-WZLog_Tests.debug.xcconfig */,
+				D7C70BD6978E429EA556884A42D8FF44 /* Pods-WZLog_Tests.release.xcconfig */,
+			);
+			name = "Pods-WZLog_Tests";
+			path = "Target Support Files/Pods-WZLog_Tests";
+			sourceTree = "<group>";
+		};
+		31FD7DEFAE6B70F2D58FA33A3D1483F2 /* WZLog */ = {
+			isa = PBXGroup;
+			children = (
+				B7A478517F6044D702D62D9124C3043F /* NSArray+Log.h */,
+				9AF8AD2E18F608C00BFE5E53232ABB67 /* NSArray+Log.m */,
+				BAE020074A33584170476937F93829CD /* NSDictionary+Log.h */,
+				ED9E567BC0FBC271EBBFF20DDC31C200 /* NSDictionary+Log.m */,
+				77492704CF225360E2EF3D443F832375 /* Pod */,
+				5FBF14D25331AA3B7D07BF3CB76B2D0A /* Support Files */,
+			);
+			name = WZLog;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3D410E2896AE8C4FECA2E3EEA3200956 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31FD7DEFAE6B70F2D58FA33A3D1483F2 /* WZLog */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5FBF14D25331AA3B7D07BF3CB76B2D0A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1A1ED8CC9687052D6F5151712EDF3 /* WZLog.modulemap */,
+				A6EF0C9BAF25EF15327E7BACE2026657 /* WZLog-dummy.m */,
+				BB0490640FFB1E82FB762CE145068FFF /* WZLog-Info.plist */,
+				C1D8EDE31B2B47EF299C17C6984270A7 /* WZLog-prefix.pch */,
+				CE3A950F9B9665FA442D4C0C490E8DFA /* WZLog-umbrella.h */,
+				9DC64DE9B41B41959ADBD8D1F59C5091 /* WZLog.debug.xcconfig */,
+				8FF4E7BF0AD64A86E9C6A300AD2C65FC /* WZLog.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WZLog";
+			sourceTree = "<group>";
+		};
+		6F41B03DD522D985B975AC335402804E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				408B5065AF8780187C3E8D5A4CA0B949 /* Pods_WZLog_Example.framework */,
+				D2156533324EDF511AF5619C49C3CB9E /* Pods_WZLog_Tests.framework */,
+				6C84E1F8D9CB10380D604664336A7A59 /* WZLog.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77492704CF225360E2EF3D443F832375 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0FA3AF6896F8115EDCF9183E09BC4B9C /* LICENSE */,
+				3A3F0AB3B64F2110D17D426343C74255 /* README.md */,
+				312B739D0BE326A6609828B1E95CF351 /* WZLog.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		91B3D26A49CD886A1F160A4D87930C01 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB0AD218B57D2BB5BAF7AE9721CE125E /* Pods-WZLog_Example */,
+				2D7D1BD3E58EF19FC5E0CD532AC3D0BF /* Pods-WZLog_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BB0AD218B57D2BB5BAF7AE9721CE125E /* Pods-WZLog_Example */ = {
+			isa = PBXGroup;
+			children = (
+				15577A6900BD5744B8E2DE087338068A /* Pods-WZLog_Example.modulemap */,
+				3746FB24AA63F09401A2889A57217CA9 /* Pods-WZLog_Example-acknowledgements.markdown */,
+				FF9DC6160B7A667D2CF07FF570CE0193 /* Pods-WZLog_Example-acknowledgements.plist */,
+				79E9B6462156EFB966A16E4CAC99EB85 /* Pods-WZLog_Example-dummy.m */,
+				690B815289373FC48A1C5CFAE0207899 /* Pods-WZLog_Example-frameworks.sh */,
+				6901C4F2DB14B2AA1DCCDA12A2546A84 /* Pods-WZLog_Example-Info.plist */,
+				D3A2EDE3E50C9892F3174C0DD8BC7940 /* Pods-WZLog_Example-umbrella.h */,
+				607051BD395A7800BFB6A8FD2595B596 /* Pods-WZLog_Example.debug.xcconfig */,
+				B0D0B14C8A215C90E0DE1E051FC4CF86 /* Pods-WZLog_Example.release.xcconfig */,
+			);
+			name = "Pods-WZLog_Example";
+			path = "Target Support Files/Pods-WZLog_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3D410E2896AE8C4FECA2E3EEA3200956 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6F41B03DD522D985B975AC335402804E /* Products */,
+				91B3D26A49CD886A1F160A4D87930C01 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D527CEE1EA8EDDFA7CA7A39A179A3E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D27D75751AFE45A7CF0F9FCB277C1E /* Pods-WZLog_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6931C512C7B362F450DB81205E1A810C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41094C232555236DF779CD408FD0FA26 /* Pods-WZLog_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D406C1ECCD7A714ED342DC904AE42990 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD19222E2C31088A12723724E9BB679F /* NSArray+Log.h in Headers */,
+				91A3C0F04916C9013B962D807B248C26 /* NSDictionary+Log.h in Headers */,
+				051F8E0D8978F7A7904C75F98F7E6FE2 /* WZLog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23ABD68BF7D77464933366DF493B8153 /* Pods-WZLog_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5DE4459A45718323E384839B722CDB6 /* Build configuration list for PBXNativeTarget "Pods-WZLog_Tests" */;
+			buildPhases = (
+				6931C512C7B362F450DB81205E1A810C /* Headers */,
+				7FE23E3329E86233C21F5E3A778B7DBD /* Sources */,
+				A829441BC94511619447DFFD79DFC438 /* Frameworks */,
+				2ED5BEE299E20B494424FEE81B96822C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FA49DF4DF509D24E0FAB5A46E5C524F /* PBXTargetDependency */,
+			);
+			name = "Pods-WZLog_Tests";
+			productName = "Pods-WZLog_Tests";
+			productReference = D2156533324EDF511AF5619C49C3CB9E /* Pods_WZLog_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		893AA337E06B714EFD23D501BC24C158 /* WZLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93DD17639E78D56D97B1AB28D9237369 /* Build configuration list for PBXNativeTarget "WZLog" */;
+			buildPhases = (
+				D406C1ECCD7A714ED342DC904AE42990 /* Headers */,
+				D9E2324A1ED944F87B23ADEBE84178B5 /* Sources */,
+				4331BB4C48820A0B3C2E810961260A71 /* Frameworks */,
+				25E75E397DB7817D7583F92AEDDDD2DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZLog;
+			productName = WZLog;
+			productReference = 6C84E1F8D9CB10380D604664336A7A59 /* WZLog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9456EA56C7CA24E1F322C7A7A17F21F /* Pods-WZLog_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4029584E70CF294C8BA927F2CC680340 /* Build configuration list for PBXNativeTarget "Pods-WZLog_Example" */;
+			buildPhases = (
+				3D527CEE1EA8EDDFA7CA7A39A179A3E4 /* Headers */,
+				DB894BC160F009A68D02BA90381DB044 /* Sources */,
+				AC3550DAB9EE214CD9385A84EA5364E4 /* Frameworks */,
+				F9F35A1CBC93FA43006DE6FB1B4E7B82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				483220C6BAD466245B4FAAF709C588F0 /* PBXTargetDependency */,
+			);
+			name = "Pods-WZLog_Example";
+			productName = "Pods-WZLog_Example";
+			productReference = 408B5065AF8780187C3E8D5A4CA0B949 /* Pods_WZLog_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6F41B03DD522D985B975AC335402804E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9456EA56C7CA24E1F322C7A7A17F21F /* Pods-WZLog_Example */,
+				23ABD68BF7D77464933366DF493B8153 /* Pods-WZLog_Tests */,
+				893AA337E06B714EFD23D501BC24C158 /* WZLog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25E75E397DB7817D7583F92AEDDDD2DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED5BEE299E20B494424FEE81B96822C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F35A1CBC93FA43006DE6FB1B4E7B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FE23E3329E86233C21F5E3A778B7DBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2E026DCD0DF32D9F4921E50B4B3E341 /* Pods-WZLog_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E2324A1ED944F87B23ADEBE84178B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62203048E46D846944C37BD76A327422 /* NSArray+Log.m in Sources */,
+				A35089E8DAE9D167788C1DF6906C204C /* NSDictionary+Log.m in Sources */,
+				5CF7A4DF1C6B6497C85823E80870B681 /* WZLog-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB894BC160F009A68D02BA90381DB044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA9011B8BCE8323EB3C724D713783A2 /* Pods-WZLog_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		483220C6BAD466245B4FAAF709C588F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WZLog;
+			target = 893AA337E06B714EFD23D501BC24C158 /* WZLog */;
+			targetProxy = 99C14DCEE06EED45CD86333B178D0AEA /* PBXContainerItemProxy */;
+		};
+		4FA49DF4DF509D24E0FAB5A46E5C524F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WZLog_Example";
+			target = B9456EA56C7CA24E1F322C7A7A17F21F /* Pods-WZLog_Example */;
+			targetProxy = D6E268ED6F347CD2891385D1D0864AF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20380E50F8D23C90278D5FE6532EFF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FF4E7BF0AD64A86E9C6A300AD2C65FC /* WZLog.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WZLog/WZLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WZLog/WZLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WZLog/WZLog.modulemap";
+				PRODUCT_MODULE_NAME = WZLog;
+				PRODUCT_NAME = WZLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		26F80704874015F7F6755FFFE824F3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C70BD6978E429EA556884A42D8FF44 /* Pods-WZLog_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZLog_Tests/Pods-WZLog_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZLog_Tests/Pods-WZLog_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		407EEF67CB95FEEE9C19595141B04959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 607051BD395A7800BFB6A8FD2595B596 /* Pods-WZLog_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZLog_Example/Pods-WZLog_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZLog_Example/Pods-WZLog_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4CAF5534AB69F33E18F06BC2D05EEE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DC64DE9B41B41959ADBD8D1F59C5091 /* WZLog.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WZLog/WZLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WZLog/WZLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WZLog/WZLog.modulemap";
+				PRODUCT_MODULE_NAME = WZLog;
+				PRODUCT_NAME = WZLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8FF287B3127AAD7D452A709A03CFD23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A0D5A335078DA0952BDCB865C490A58 /* Pods-WZLog_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZLog_Tests/Pods-WZLog_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZLog_Tests/Pods-WZLog_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E3B9A8CDFB3E5DD893A2B779B5D155D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D0B14C8A215C90E0DE1E051FC4CF86 /* Pods-WZLog_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZLog_Example/Pods-WZLog_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZLog_Example/Pods-WZLog_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4029584E70CF294C8BA927F2CC680340 /* Build configuration list for PBXNativeTarget "Pods-WZLog_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407EEF67CB95FEEE9C19595141B04959 /* Debug */,
+				E3B9A8CDFB3E5DD893A2B779B5D155D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93DD17639E78D56D97B1AB28D9237369 /* Build configuration list for PBXNativeTarget "WZLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAF5534AB69F33E18F06BC2D05EEE39 /* Debug */,
+				20380E50F8D23C90278D5FE6532EFF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5DE4459A45718323E384839B722CDB6 /* Build configuration list for PBXNativeTarget "Pods-WZLog_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF287B3127AAD7D452A709A03CFD23C /* Debug */,
+				26F80704874015F7F6755FFFE824F3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
