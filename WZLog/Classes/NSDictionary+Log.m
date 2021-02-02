@@ -10,7 +10,8 @@
 
 @implementation NSDictionary (Log)
 
-- (NSString *)descriptionWithLocale:(id)locale {
+- (NSString *)descriptionWithLocale:(nullable id)locale indent:(NSUInteger)level {
+    
      NSMutableString *string = [NSMutableString string];
 
      // 开头有个{
