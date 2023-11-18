@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WZLog'
   s.version          = '0.1.4'
-  s.summary          = 'A short de WZLog.'
+  s.summary          = 'A short aaaaaa de WZLog.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
